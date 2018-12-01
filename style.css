@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /* layout of the website in a css grid */
+    grid-template-areas:
+    "title nav"
+    "main main"
+
+    ;
+}
+
+.nav {
+    align-self: right;
+}
+.nav a {
+    display: block;
+}
+
